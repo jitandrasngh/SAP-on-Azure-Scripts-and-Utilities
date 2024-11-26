@@ -3679,6 +3679,24 @@
                 "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"]
             }
         },
+        "Standard_M832is_16_v3": {
+            "DB": {
+                "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"],
+                "HANAStorageTypeData": ["Premium_LRS","UltraSSD_LRS","ANF","PremiumV2_LRS"],
+                "HANAStorageTypeLog": ["Premium_LRS", "UltraSSD_LRS","ANF","PremiumV2_LRS"],
+                "HANAScenario": {
+                    "OLTP": "Standard Sizing",
+                    "OLAP": "Standard Sizing",
+                    "OLAP-ScaleOut": "Standard Sizing"
+                }
+            },
+            "APP": {
+                "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"]
+            },
+            "ASCS": {
+                "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"]
+            }
+        },
         "Standard_M416ds_6_v3": {
             "DB": {
                 "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"],
@@ -3734,6 +3752,24 @@
             }
         },
         "Standard_M832ds_12_v3": {
+            "DB": {
+                "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"],
+                "HANAStorageTypeData": ["Premium_LRS","UltraSSD_LRS","ANF","PremiumV2_LRS"],
+                "HANAStorageTypeLog": ["Premium_LRS", "UltraSSD_LRS","ANF","PremiumV2_LRS"],
+                "HANAScenario": {
+                    "OLTP": "Standard Sizing",
+                    "OLAP": "Standard Sizing",
+                    "OLAP-ScaleOut": "Standard Sizing"
+                }
+            },
+            "APP": {
+                "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"]
+            },
+            "ASCS": {
+                "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"]
+            }
+        },
+        "Standard_M832ids_16_v3": {
             "DB": {
                 "SupportedDB": ["MSSQL", "Oracle", "Db2", "HANA", "ASE"],
                 "HANAStorageTypeData": ["Premium_LRS","UltraSSD_LRS","ANF","PremiumV2_LRS"],
